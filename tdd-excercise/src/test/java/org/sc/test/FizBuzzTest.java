@@ -1,4 +1,5 @@
-import org.assertj.core.api.Assertions;
+package org.sc.test;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -35,7 +36,7 @@ class FizBuzzTest {
 
     @Test
     void testShouldReturnFizzBuzzOnMultipleOf3And5() {
-        assertThat(fizzBuzz.get(15)).isEqualTo("FizzBuzz");
+        assertThat(fizzBuzz.get(15)).isEqualTo("org.sc.test.FizzBuzz");
     }
 
     @Test
