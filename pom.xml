@@ -12,6 +12,7 @@
     <modules>
         <module>kata-exercise</module>
         <module>tdd-exercise</module>
+        <module>spring-tdd</module>
     </modules>
 
     <properties>
